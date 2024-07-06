@@ -5,7 +5,7 @@ namespace MyNamespace;
 class MyChildClass extends MyClass
 {
 
-    // Removing this trait causes the error to be identified by PHPStorm.
+    // Removing this trait causes the errors in both classes to be identified by PHPStorm.
     use MyTrait;
 
     #[\Override]
